@@ -357,4 +357,79 @@ footer .redesSociais img {
 .finalFooter .fraseFinal {
   color: #9CA3AF;
   margin-top: 1rem;
+}
+
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    height: 25vh;
+    flex-direction: column;
+  }
+  header .caixalogo {
+    width: 100vw;
+    justify-content: center;
+  }
+  header nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  header nav a {
+    font-size: 0.8rem;
+  }
+  .caixaLogo {
+    width: 50%;
+  }
+  .caixaLogo h1 {
+    font-size: 1rem;
+    width: 20vw;
+  }
+  .apresentacao {
+    flex-direction: column;
+    align-items: center;
+  }
+  .apresentacao img {
+    width: 50vw;
+  }
+  .apresentacao section {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+  }
+  .apresentacao section h2 {
+    font-size: 2.3rem;
+    width: 100%;
+    text-align: center;
+  }
+  .apresentacao section p {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .boxbtnprimeirasection {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    cursor: pointer;
+    align-items: center;
+  }
+  .boxbtnprimeirasection button {
+    padding: 0.5rem 5rem;
+  }
+  .dados {
+    height: 20vh;
+    background-color: #d5d7da;
+  }
+  .dados div {
+    width: 25%;
+    height: 12vh;
+    justify-content: space-evenly;
+  }
+  .dados div h3 {
+    font-size: 1.5rem;
+  }
+  .dados div p {
+    font-size: 1rem;
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
