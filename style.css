@@ -418,7 +418,7 @@ footer .redesSociais img {
   }
   .dados {
     height: 20vh;
-    background-color: #d5d7da;
+    background-color: #e2e5e7;
   }
   .dados div {
     width: 25%;
@@ -435,18 +435,83 @@ footer .redesSociais img {
   .como-funciona {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     height: 20vh;
+    text-align: center;
   }
   .como-funciona h2 {
-    width: 100%;
     font-size: 2.5rem;
     text-align: center;
     font-weight: 700;
   }
   .como-funciona p {
     font-size: 1.2rem;
-    width: 100%;
     font-weight: 400;
+  }
+  .cards {
+    height: 80;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards article {
+    background-color: #e2e5e7;
+    width: 90vw;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .cards article p {
+    width: 100%;
+  }
+  .produtosDisponiveis {
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .produtosDisponiveis article {
+    height: 55vh;
+    width: 80vw;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .avaliacoes {
+    height: 130vh;
+    margin-top: 5rem;
+  }
+  .avaliacoes h2 {
+    width: 100%;
+    font-size: 2rem;
+  }
+  .avaliacoes h3 {
+    font-size: 1.5rem;
+  }
+  .comentarios {
+    display: flex;
+    flex-direction: column;
+  }
+  .comentarios article {
+    width: 50%;
+    height: 50vh;
+    margin-top: 1rem;
+    align-items: center;
+  }
+  .final {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .final h2 {
+    font-size: 1.8rem;
+  }
+  .final h3 {
+    font-size: 1rem;
+    width: 100%;
+    font-weight: 100;
+  }
+  .botoesFinal {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
