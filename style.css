@@ -31,6 +31,7 @@ header a {
   padding: 20px;
   border-radius: 6px;
   border: none;
+  cursor: pointer;
 }
 
 .caixalogo {
@@ -86,12 +87,14 @@ header a {
   background-color: #21C05C;
   color: #ffffff;
   width: 10vw;
+  cursor: pointer;
 }
 .boxbtnprimeirasection #btnbranco {
   background-color: #ffffff;
   color: #2563eb;
   border: solid #2563eb 1px;
   width: 10vw;
+  cursor: pointer;
 }
 
 .dados {
@@ -292,6 +295,7 @@ header a {
   padding: 10px 30px;
   border: none;
   color: #ffffff;
+  cursor: pointer;
 }
 .botoesFinal .saberMais {
   background-color: #ffffff;
@@ -300,6 +304,7 @@ header a {
   border-radius: 6px;
   padding: 10px 30px;
   border: solid 0.1rem #16A34A;
+  cursor: pointer;
 }
 
 footer {
@@ -503,6 +508,7 @@ footer .redesSociais img {
   }
   .final h2 {
     font-size: 1.8rem;
+    text-align: center;
   }
   .final h3 {
     font-size: 1rem;
@@ -513,5 +519,36 @@ footer .redesSociais img {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+  }
+  footer {
+    height: 60vh;
+    padding-top: 2rem;
+  }
+  footer .footerConteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 65%;
+  }
+  .logoReciclagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logoTitulo {
+    display: flex;
+    align-items: center;
+  }
+  .logoReciclagem p {
+    text-align: center;
+  }
+  .redesSociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .redesSociais p {
+    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
